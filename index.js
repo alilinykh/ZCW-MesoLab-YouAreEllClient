@@ -23,7 +23,7 @@ function populateThread(messages) {
     });
 }
 
-function createFormListener() {
+
     const form = document.getElementById("new-message-form");
 
     form.onsubmit = function (event) {
@@ -43,7 +43,7 @@ function createFormListener() {
             console.log(response)
         }
     }
-}
+
 
 function addMessageToThread(message) {
     const messageListItem = document.createElement("LI");
